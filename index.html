@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Expense Tracker</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h2 id="h2">EXPENSE TRACKER</h2>
+      <div class="container">
+            <h4>YOUR BALANCE</h4>
+            <h1 id="balance">$0.00</h1>
+            
+            
+            <div class="inc-exp-container">
+                  <div class="income">
+                        <h4>INCOME</h4>
+                        <p id="money-plus" class="money plus">+$0.00</p>
+                  </div>
+                  <div class="expense">
+                        <h4>EXPENSE</h4>
+                        <p id="money-minus" class="money minus">-$0.00</p>
+                  </div>
+            </div>
+            
+            
+            <h3>History</h3>
+            <ul id="list" class="list">
+
+            </ul>
+
+            <h3>Add new transaction</h3>
+            
+                  <form id="form">
+                        <div class="form-control">
+                              <label for="text">Enter Details</label>
+                              <input type="text" placeholder="Enter text..." id="text">
+                        </div>
+                        <div class="form-control">
+                              <label for="amount">Amount <br> (negative - expense, positive - income)</label>
+                        <input type="number" placeholder="Enter amount..." id="amount">
+                        </div>
+                        
+                        <button id="transaction-btn" class="btn">Add transaction</button>
+                  </form>
+                  
+                  <button id="clear-btn" class="btn" style="background: red;">Exit Expense Tracker</button>
+      </div>
+
+      <p style="color:rgb(92, 90, 90)"><em>Made with❤️ Rishikesh T</em></p>
+
+      <script src="main.js"></script>
+</body>
+</html>
