@@ -145,3 +145,13 @@ input[type='number']{
 .list li:hover .delete-btn {
       opacity: 1;
 }
+
+@media (max-width : 450px){
+      .list li:hover{
+            padding-left: 40px;
+      }
+      .list li:hover .delete-btn {
+            opacity: 1;
+            left: 10%;
+      }
+}
